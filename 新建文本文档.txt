@@ -1,0 +1,58 @@
+选择器
+  this/p/.class/#id
+事件
+  鼠标事件：click/dbclick
+            mouseenter/mouseleave/mousedown/mouseup
+            hover
+  表单事件：submit/change/focus/blur
+  文档/窗口事件：load/resize/scroll/unload
+隐藏显示
+  hide/show/toggle
+淡入淡出
+  fadeIn/fadeOut/fadeToggle/fadeTo(speed,0-1)
+滑动
+  slideDown/slideUp/slideToggle
+自定义动画需要将元素的 position 属性设置为 relative, fixed, 或 absolute!
+  animate({left:'250px'});
+  .animate({
+      left:'250px',
+      opacity:'0.5',
+      height:'150px',
+      width:'150px'
+    });
+    .animate({
+      left:'250px',
+      height:'+=150px',
+      width:'+=150px'
+    });
+    预定义：hide/show/toggle
+    
+停止动画
+  stop(false,false,false)
+文本html获取
+  .text()/.html()/val()表单/attr()
+添加元素内容
+  append/prepend/	after/before
+  var txt1="<p>文本。</p>";              // 使用 HTML 标签创建文本
+	var txt2=$("<p></p>").text("文本。");  // 使用 jQuery 创建文本
+	var txt3=document.createElement("p");
+	txt3.innerHTML="文本。";               // 使用 DOM 创建文本 text with DOM
+移除元素
+  remove/empty
+  
+CSS
+  addClass/removeClass/toggleClass
+  css()返回或设置/多个时{"":"","":""}
+  
+尺寸
+  width/height/innerWidth/InnerHeight/outerWidth/outerHeight
+遍历
+  parent/parents/parentsUntil
+  children/find
+  siblings/next/nextAll/nextUntil
+AJAX创建交互式 Web 应用程序而无需牺牲浏览器兼容性的流行方法（Asynchronous JavaScript and XML)
+  load
+  get
+  post
+  
+ 

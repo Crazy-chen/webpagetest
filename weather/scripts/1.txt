@@ -1,0 +1,12 @@
+{"coord":{"lon":139,"lat":35},
+"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"https://cdn.glitch.com/6e8889e5-7a72-48f0-a061-863548450de5%2F03d.png?1499366020890"}],
+"base":"stations",
+"main":{"temp":10,"pressure":1015,"humidity":53,"temp_min":10,"temp_max":10},"visibility":10000,
+"wind":{"speed":1.5},
+"clouds":{"all":40},
+"dt":1514433600,
+"sys":{"type":1,"id":7616,"message":0.0042,"country":"JP","sunrise":1514411455,"sunset":1514446814},
+"id":1851632,
+"name":"Shuzenji",
+"cod":200
+}
