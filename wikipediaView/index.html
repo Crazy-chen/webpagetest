@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  <title>Wikipedia Viewer</title>
+</head>
+<body>
+    <div class="container">
+        <header id = "top">
+          <h1>Wikipedia Viewer <small>By Chen</small></h1>
+          
+        </header>
+      <span id="back"><a href="#top"><i class="fas fa-angle-double-down"></i>Go Back</a></span>
+        <main>
+          
+          <form action="" method="get">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search...">
+              <span class="input-group-btn">
+                <button id="search" class="btn btn-primary" type="button">Go!</button>
+              </span>
+            </div>
+          </form>
+          <div id="random" class="well"><a href="https://en.wikipedia.org/wiki/Special:Random" target='_blank'><i class="fas fa-random"></i>Random Wikipedia Article </a></div>
+          <div id="results">
+            <ul></ul>
+          </div>
+        </main>
+    
+        <footer>
+          <p>By <a href="https://codepen.io/chenmin/">Chen</a></p>
+        </footer>
+      </div>
+
+
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
