@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+}
+
+
+li{
+  margin:10px;
+  border-style: solid;
+  border-top-left-radius: 10%;
+  
+}
+
+li img{
+  width:50px;
+  border-radius:50%;
+  
+  
+}
+h2 {
+  
+  display: inline-block;
+  line-height: 2;
+}
+p {
+  font-size:1.5em;
+  text-align: center;
+}
+
+div.panel-body{
+  text-align: center;
+  display: inline-block;
+  color:rgb(122, 23, 235);
+}
+.panel-body{
+
+}
+span.label{
+  font-size:20px;
+  margin-left:20px;
+}
+.badge-online {
+  background-color: rgb(81, 255, 0);
+}
+.hover-color{
+  background-color: darkgrey;
+}
+
+footer{
+  font-size:20px;
+}
