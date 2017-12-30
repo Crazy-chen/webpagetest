@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  margin: auto;
+  
+}
+td {
+  width: 50px;
+  line-height: 0px;
+}
+.btn{
+  width: 50px;
+  font-size: x-large;
+}
+.btn-operation{
+  width: 50px;
+  font-size: x-large;
+  background-color: chocolate;
+}
+
+.btn-equal{
+  height: 70px;
+}
+.text{
+  width: 205px;
+  line-height: 40px;
+  font-size: x-large;text-align: right;
+}
