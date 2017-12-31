@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Pomodoro Clock</title>
+</head>
+<body>
+  <header>
+    <h1>Pomodoro Clock <small>By Chen</small></h1>
+    </header>
+    <main class="container">
+      <div id = "1">
+        <input type="time" class="form-control input-lg" name="usr-session" id="sessionTime"
+        value="00:25:00">
+      
+      <button class="btn btn-success btn-lg">CONFIRM SESSION LENGTH</button>
+       </div>
+      <div id = "2">
+        <input type="time" 
+        class="form-control input-lg" name="usr-break" id="breakTime" value="00:10:00">
+      
+      <button class="btn btn-primary btn-lg">CONFIRM BREAK LENGTH</button>
+       </div>
+      <div id = "3">
+        <input type="time" 
+        class="form-control input-lg" name="usr-rest" id="restTime" value="00:00:00" disabled>
+      
+      <button class="btn btn-warning"><i class="fas fa-pause-circle fa-3x"></i></button>
+      <button class="btn btn-danger"><i class="fas fa-redo fa-3x"></i></button>
+      </div>
+      
+       <div id = "work-content" class="jumbotron">
+         <h2><i class="fas fa-quote-left"></i><span></span></h2>
+         <p></p>
+       </div>
+    </main>
+    <footer>
+      <p>By <a href="https://codepen.io/chenmin">Chen</a></p>
+    </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

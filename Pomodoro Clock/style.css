@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
+
+html{
+  width:100%;
+  height:100%;
+}
+
+body{
+  text-align: center;
+  height:100%;
+  width: 100%;
+  background-color: #EEEEEE;
+  background-image:url(https://images.unsplash.com/photo-1512445202225-bee7f0de51c3?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D%0A&s=e94ff7bd38a007e94f03ff9e861b3944);
+  background-size:cover;
+  font-family:Lora;
+  
+}
+header{
+  color:white;
+  font-size:1.5em;
+  font-family:Merriweather;
+}
+button {
+  box-shadow: -10px 9px 15px 3px black;
+}
+
+div {
+  padding-top:0;
+}
+.input-lg{
+  background-color: #FFEB3B;
+  font-size:50px;
+  float: left;
+  letter-spacing: 10px;
+  text-align: center;
+  text-indent: 5%;
+  overflow-x: visible;
+  width:90%;
+  height:100%;
+  margin: 5%;
+  border-style: solid;
+  border-radius: 50%;
+  box-shadow: -10px 9px 15px 3px black;
+  
+} 
+input[name="usr-rest"]{
+  background-color: #00B0FF;
+}
+
+button:nth-of-type(2){
+  margin-left:9%;
+}
+
+footer{
+  margin-top:20px;
+  font-size:40px;
+}
+#work-content {
+  display:none;
+  maigin-top:-20px;
+  opacity:0.85;
+}
