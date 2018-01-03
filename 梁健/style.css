@@ -1,0 +1,23 @@
+
+body {
+  text-align: left;
+}
+.part {
+  display: inline-table;
+}
+fieldset {
+  margin-top: 5%;
+}
+fieldset:nth-of-type(1) div.input-group {
+  zoom: 2;
+  /* font-size: 2em; */
+  position: relative;
+  display: table-cell;
+  border-collapse: separate;
+}
+fieldset:nth-of-type(2) div.input-group {
+  zoom: 1.5;
+  position: relative;
+  display: table-cell;
+  border-collapse: separate;
+}

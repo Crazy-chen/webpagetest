@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simon Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+  <header>
+    <h1>SIMON GAME</h1>
+  </header>
+  <div class="container">
+    <div class="block" id="green" onClick="addToPlayer(this.id)"></div>
+    <div class="block" id="red" onClick="addToPlayer(this.id)"></div>
+    <div class="block" id="blue" onClick="addToPlayer(this.id)"></div>
+    <div class="block" id="yellow" onClick="addToPlayer(this.id)"></div>
+  </div>
+  <div class="level-container">
+    level：
+    <span id="level"></span>
+  </div>
+  <div class="btns">
+    <button type="button" id="reset">Reset</button>
+  </div>
+  <div class="btns">
+    <input type="checkbox" id="strict">Strict
+    <!-- <button type="button" id="strict">Strict</button> -->
+  </div>
+  <hr>
+  <footer></footer>
+
+
+
+
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.js"></script>
+  <script type="application/javascript" src="main.js"></script>
+</body>
+
+</html>
