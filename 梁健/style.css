@@ -6,10 +6,10 @@ body {
   display: inline-table;
 }
 fieldset {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 fieldset:nth-of-type(1) div.input-group {
-  zoom: 2;
+  zoom: 1.5;
   /* font-size: 2em; */
   position: relative;
   display: table-cell;
@@ -17,6 +17,13 @@ fieldset:nth-of-type(1) div.input-group {
 }
 fieldset:nth-of-type(2) div.input-group {
   zoom: 1.5;
+  
+  position: relative;
+  display: table-cell;
+  border-collapse: separate;
+}
+fieldset:nth-of-type(4)  {
+  zoom: 1.7;
   position: relative;
   display: table-cell;
   border-collapse: separate;
